@@ -7,7 +7,7 @@ interface DataGridFooterProps {}
 const DataGridFooter: React.FC<DataGridFooterProps> = () => {
   const [page, setPage] = useState(1);
 
-  const handlePageChange = (e: React.ChangeEvent<unknown>, page: number) => {
+  const handlePageChange = (_e: React.ChangeEvent<unknown>, page: number) => {
     setPage(page);
     console.log(page);
   };

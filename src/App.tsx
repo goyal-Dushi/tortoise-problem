@@ -1,4 +1,4 @@
-import { HashRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router-dom';
 import Dashboard from './pages/Dashboard';
 import './scss/index.scss';
 import Details from './pages/Details';
@@ -11,19 +11,17 @@ interface AppProps {}
 
 const App: React.FC<AppProps> = () => {
   return (
-    <HashRouter>
-      <Routes>
-        <Route path="/" element={<Navigate to="/claimsDashboard" replace />} />
-        <Route element={<PageLayout />}>
-          <Route path="/claimsDashboard" element={<Dashboard />} />
-        </Route>
-        <Route Component={Details}>
-          <Route path="/claims" index Component={Claims} />
-          <Route path="/payment" Component={Payments} />
-          <Route path="/documents" Component={Documents} />
-        </Route>
-      </Routes>
-    </HashRouter>
+    <Routes>
+      <Route path="/" element={<Navigate to="/claimsDashboard" replace />} />
+      <Route element={<PageLayout />}>
+        <Route path="/claimsDashboard" element={<Dashboard />} />
+      </Route>
+      <Route Component={Details}>
+        <Route path="/claims" index Component={Claims} />
+        <Route path="/payment" Component={Payments} />
+        <Route path="/documents" Component={Documents} />
+      </Route>
+    </Routes>
   );
 };
 

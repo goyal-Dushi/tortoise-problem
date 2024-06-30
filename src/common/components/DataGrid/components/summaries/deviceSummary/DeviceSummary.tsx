@@ -1,7 +1,7 @@
 import React from 'react';
-import { DeviceI } from '../../Type';
 import { TableCell } from '@mui/material';
 import { Devices } from '@phosphor-icons/react';
+import { DeviceI } from '../../../Type';
 
 interface DeviceSummaryProps {
   data: DeviceI;

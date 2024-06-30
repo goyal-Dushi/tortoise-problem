@@ -23,7 +23,7 @@ const PageNav: React.FC<PageNavProps> = (props) => {
     setTabIdx(value);
   };
 
-  const handleTabClick = (e: React.SyntheticEvent, link: string) => {
+  const handleTabClick = (_e: React.SyntheticEvent, link: string) => {
     navigate(link);
   };
 
