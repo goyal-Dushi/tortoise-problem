@@ -1,0 +1,23 @@
+.device-summary{
+    @extend .d-flex;
+    @extend .align-items-center;
+    @extend .gap-2;
+    
+    &__icon{
+        height: 28px;
+        width: 28px;
+    }
+
+    &__sub-text{
+        @extend .text-secondary;
+        font-size: $font-size-sm;
+        margin: 0;
+    }
+
+    &__label{
+        @extend .fw-bold;
+        margin: 0;
+        color: $text-dark;
+        font-size: $font-size-primary;
+    }
+}

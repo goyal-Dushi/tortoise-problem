@@ -1,0 +1,17 @@
+.grid-footer{
+    @extend .d-flex;
+    @extend .align-items-center;
+    @extend .justify-content-between;
+    @extend .p-2;
+
+    &__text{
+        @extend .text-secondary;
+    }
+}
+
+.paginate-btn{
+    &--active{
+        @extend .bg-dark;
+        @extend .text-light;
+    }
+}

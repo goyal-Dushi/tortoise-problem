@@ -1,0 +1,45 @@
+.item-wrapper{
+    @extend .py-3;
+    @extend .px-4;
+    @extend .d-flex;
+    @extend .border;
+    @extend .rounded;
+    @extend .my-2;
+    @extend .align-items-center;
+    @extend .justify-content-between;
+
+    .item-section{
+        @extend .d-flex;
+        @extend .align-items-center;
+        @extend .gap-2;
+
+        &__icon{
+            height: 24px;
+            width: 24px;
+        }
+
+        &__detail {
+            @extend .fw-medium;
+
+            .item-name{
+                color: $text-dark;
+            }
+
+            .item-modal{
+                @extend .text-secondary;
+                font-size: $font-size-sm;
+            }
+
+            p{
+                margin: 0;
+            }
+        }
+    }
+
+    .price-section{
+        &__price{
+            @extend .fw-medium;
+            color: $text-dark;
+        }
+    }
+}

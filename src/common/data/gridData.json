@@ -1,0 +1,211 @@
+[
+    {   
+        "id":"89239032",
+        "action_url":"/claims",
+        "employee": {
+            "name":"Aditya Garikapati",
+            "designation":"Product Designer",
+            "photo": ""
+        },
+        "device":{
+            "name":"phone",
+            "label": "iPhone 15",
+            "photo":"",
+            "add_ons": {
+                "count":"2"
+            }
+        },
+        "request_info":{
+            "duration":"5m ago",
+            "date":"18th Mar 2023"
+        },
+        "amount":{
+            "status":"pending",
+            "payable":"13415",
+            "tenure":"For 6 months",
+            "plan":"month"
+        }
+    },
+    {   
+        "id":"78327843",
+        "employee": {
+            "name":"Aditya Garikapati",
+            "designation":"Product Designer",
+            "photo": ""
+        },
+        "device":{
+            "name":"phone",
+            "label": "iPhone 15",
+            "photo":"",
+            "add_ons": {
+                "count":"2"
+            }
+        },
+        "request_info":{
+            "duration":"5m ago",
+            "date":"18th Mar 2023"
+        },
+        "amount":{
+            "status":"pending",
+            "payable":"13415",
+            "tenure":"For 6 months",
+            "plan":"month"
+        }
+    },
+    {   
+        "id":"71878743",
+        "employee": {
+            "name":"Aditya Garikapati",
+            "designation":"Product Designer",
+            "photo": ""
+        },
+        "device":{
+            "name":"phone",
+            "label": "iPhone 15",
+            "photo":"",
+            "add_ons": {
+                "count":"2"
+            }
+        },
+        "request_info":{
+            "duration":"5m ago",
+            "date":"18th Mar 2023"
+        },
+        "amount":{
+            "status":"pending",
+            "payable":"13415",
+            "tenure":"For 6 months",
+            "plan":"month"
+        }
+    },
+    {   
+        "id":"1893894",
+        "employee": {
+            "name":"Aditya Garikapati",
+            "designation":"Product Designer",
+            "photo": ""
+        },
+        "device":{
+            "name":"phone",
+            "label": "iPhone 15",
+            "photo":"",
+            "add_ons": {
+                "count":"2"
+            }
+        },
+        "request_info":{
+            "duration":"5m ago",
+            "date":"18th Mar 2023"
+        },
+        "amount":{
+            "status":"pending",
+            "payable":"13415",
+            "tenure":"For 6 months",
+            "plan":"month"
+        }
+    },
+    {   
+        "id":"93283763",
+        "employee": {
+            "name":"Aditya Garikapati",
+            "designation":"Product Designer",
+            "photo": ""
+        },
+        "device":{
+            "name":"phone",
+            "label": "iPhone 15",
+            "photo":"",
+            "add_ons": {
+                "count":"2"
+            }
+        },
+        "request_info":{
+            "duration":"5m ago",
+            "date":"18th Mar 2023"
+        },
+        "amount":{
+            "status":"pending",
+            "payable":"13415",
+            "tenure":"For 6 months",
+            "plan":"month"
+        }
+    },
+    {   
+        "id":"56464185",
+        "employee": {
+            "name":"Aditya Garikapati",
+            "designation":"Product Designer",
+            "photo": ""
+        },
+        "device":{
+            "name":"phone",
+            "label": "iPhone 15",
+            "photo":"",
+            "add_ons": {
+                "count":"2"
+            }
+        },
+        "request_info":{
+            "duration":"5m ago",
+            "date":"18th Mar 2023"
+        },
+        "amount":{
+            "status":"pending",
+            "payable":"13415",
+            "tenure":"For 6 months",
+            "plan":"month"
+        }
+    },
+    {   
+        "id":"35489646",
+        "employee": {
+            "name":"Aditya Garikapati",
+            "designation":"Product Designer",
+            "photo": ""
+        },
+        "device":{
+            "name":"phone",
+            "label": "iPhone 15",
+            "photo":"",
+            "add_ons": {
+                "count":"2"
+            }
+        },
+        "request_info":{
+            "duration":"5m ago",
+            "date":"18th Mar 2023"
+        },
+        "amount":{
+            "status":"pending",
+            "payable":"13415",
+            "tenure":"For 6 months",
+            "plan":"month"
+        }
+    },
+    {   
+        "id":"51564854",
+        "employee": {
+            "name":"Aditya Garikapati",
+            "designation":"Product Designer",
+            "photo": ""
+        },
+        "device":{
+            "name":"phone",
+            "label": "iPhone 15",
+            "photo":"",
+            "add_ons": {
+                "count":"2"
+            }
+        },
+        "request_info":{
+            "duration":"5m ago",
+            "date":"18th Mar 2023"
+        },
+        "amount":{
+            "status":"pending",
+            "payable":"13415",
+            "tenure":"For 6 months",
+            "plan":"month"
+        }
+    }
+]

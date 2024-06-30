@@ -1,0 +1,49 @@
+.docu-block{
+    @extend .border;
+    @extend .rounded;
+    @extend .p-3;
+    @extend .my-3;
+    
+    &__content 
+    {
+        p{
+            margin: 0;
+        };
+
+        .doc-name{
+            @extend .fw-medium;
+            color: $text-dark;
+        }
+
+        .doc-sharing{
+            @extend .text-secondary;
+        }
+    }
+
+    &__separator{
+        @extend .my-4;
+        border-top: 1px solid gray;
+        border-top-width: 80%;
+        margin: 0 auto;
+    }
+
+    .sign-section{
+        @extend .d-flex;
+        @extend .align-items-center;
+        @extend .justify-content-between;
+
+        &__icon{
+            @extend .me-2;
+            height: 32px;
+            width: 32px;
+        }
+
+        &__date{
+            color: $text-dark;
+        }
+
+        &__action{
+            @extend .ms-auto;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "col_modal": {
+        "employee": {
+            "name":"employee",
+            "label":"Employee",
+            "summary_type":"emp_summary"
+        },
+        "device": {
+            "name":"device",
+            "label":"Device",
+            "summary_type": "device_summary"
+        },
+        "request_info":{
+            "name":"request_info",
+            "label":"Requested On",
+            "summary_type":"reqInfo_summary"
+        },
+        "amount":{
+            "name":"amount",
+            "label":"Amount Payable",
+            "summary_type": "amount_summary"
+        }
+    }
+}

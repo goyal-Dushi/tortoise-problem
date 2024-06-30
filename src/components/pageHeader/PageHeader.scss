@@ -1,0 +1,15 @@
+.page-header {
+    @extend .d-flex;
+    @extend .align-items-center;
+    @extend .justify-content-between;
+    @extend .px-3;
+
+    &__actions{
+        @extend .d-flex;
+        @extend .gap-3;
+
+        button:hover{
+            background-color: $border-light;
+        }
+    }
+}

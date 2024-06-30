@@ -1,0 +1,14 @@
+@import './components/PageInfoTab.scss';
+@import './components/PageTab.scss';
+
+.page-aside{
+    background-color: $bg-yellow-lighter;
+    padding: 10px;
+    height: 100%;
+
+    &__info-tabs, &__list-tabs{
+        @extend .d-flex;
+        @extend .flex-column;
+        @extend .gap-2;
+    }
+}

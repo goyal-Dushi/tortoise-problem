@@ -1,0 +1,36 @@
+.nav-card{
+    border-radius: 8px;
+    background-color: $bg-yellow-light;
+    color: $text-dark-green;
+    width: 100%;
+
+    &__icon{
+        fill: $text-dark-green;
+        color: $text-dark-green;
+        height: 28px;
+        width: 28px;
+    }
+
+    &__label{
+        @extend .fw-medium;
+        font-size: $font-size-primary;
+    }
+
+    &__count{
+        @extend .fw-medium;
+        font-size: $font-size-xlg;
+    }
+}
+
+a.active{
+    .nav-card {
+            background-color: $bg-green-light;
+            color: #fff;
+            border:2px solid $bg-green;
+    
+            &__icon {
+                fill: #fff;
+                color: #fff;
+            }
+        }
+}

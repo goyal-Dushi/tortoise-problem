@@ -1,0 +1,26 @@
+$bg-yellow-lighter: #faf4ea;
+$bg-yellow-light: #f3ede4;
+$bg-green-light: #16af8e;
+$bg-green: #167e62;
+$bg-light: #f6f6f6;
+
+$text-dark-green: #114036;
+$text-dark: #4b4b4b;
+
+$font-size-xsm: 10px;
+$font-size-sm: 12px;
+$font-size-primary: 14px;
+$font-size-md: 18px;
+$font-size-lg: 22px;
+$font-size-xlg: 24px;
+
+$border-light: #c2b9ae;
+
+.sub-text {
+    @extend .text-secondary;
+    font-size: $font-size-sm;
+}
+
+.bg-yellow{
+    background-color: $bg-yellow-lighter;
+}

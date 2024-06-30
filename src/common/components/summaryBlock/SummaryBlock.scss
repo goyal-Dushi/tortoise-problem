@@ -1,0 +1,29 @@
+.summary-block{
+    @extend .border;
+    @extend .rounded;
+    @extend .py-3;
+    @extend .px-4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid $border-light;
+}
+
+.summary-card {
+    &__icon {
+        height: 30px;
+        width: 30px;
+    }
+
+    &__sub-label {
+        @extend .text-secondary;
+        margin: 0;
+        font-size: $font-size-sm;
+    }
+
+    &__label {
+        @extend .fw-medium;
+        color: $text-dark;
+        margin: 0;
+        font-size: $font-size-primary;
+    }
+}

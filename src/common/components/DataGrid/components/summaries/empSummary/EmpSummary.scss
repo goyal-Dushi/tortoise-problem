@@ -1,0 +1,26 @@
+.emp-summary{
+    @extend .d-flex;
+    @extend .align-items-center;
+    @extend .gap-2;
+
+    &__icon{
+        height: 36px;
+        width: 36px;
+    }
+
+    &__name{
+        @extend .fw-bold;
+        color: $text-dark;
+        font-size: 14px;
+    }
+
+    &__designation{
+        @extend .text-secondary;
+        font-size: 12px;
+    }
+
+    &__name, &__designation {
+        margin-bottom: 0;
+
+    }
+}

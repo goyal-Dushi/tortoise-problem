@@ -1,0 +1,12 @@
+.header-block{
+    hr{
+        width: 45%;
+        border-top: 2px dashed lightcoral;
+    }
+
+    &__label {
+        @extend .py-2;
+        @extend .px-4;
+        background-color: lightcoral;
+    }
+}

@@ -1,0 +1,52 @@
+.status-btn{
+    @extend .py-0;
+    @extend .d-flex;
+    @extend .align-items-center;
+    @extend .gap-2;
+
+    font-size: $font-size-sm;
+    background-color: #fff;
+    color: $text-dark;
+    border-top: 1px solid $border-light; 
+    border-right:0;
+    border-left: 1px solid $border-light;
+    border-bottom: 1px solid $border-light;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+    &:hover{
+        border-top: 1px solid $border-light;
+        border-right: 0;
+        border-left: 1px solid $border-light;
+        border-bottom: 1px solid $border-light;
+    }
+
+    &__approve-check{
+        color: $bg-green-light;
+        height: 18px;
+        width: 18px;
+    }
+}
+
+.caret-btn{
+    background-color: #fff;
+    color: $text-dark;
+    border-top: 1px solid $border-light;
+    border-right: 1px solid $border-light;
+    border-left: 0px;
+    border-bottom: 1px solid $border-light;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    &:hover {
+        border-top: 1px solid $border-light;
+        border-right: 1px solid $border-light;
+        border-left: 0px;
+        border-bottom: 1px solid $border-light;
+    }
+
+    &__down-arr{
+        height: 20px;
+        width: 20px;
+    }
+}

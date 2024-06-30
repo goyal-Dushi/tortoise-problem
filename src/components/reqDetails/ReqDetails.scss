@@ -1,0 +1,56 @@
+.req-details{
+    @extend .border;
+    @extend .rounded;
+    @extend .py-3;
+    @extend .px-4;
+    @extend .d-flex;
+    @extend .align-items-center;
+    @extend .justify-content-between;
+
+    .user-section{
+        @extend .d-flex;
+        @extend .align-items-center;
+        @extend .gap-2;
+
+        &__icon{
+            height: 30px;
+            width: 30px;
+        }
+
+        &__detail{
+            .user-name{
+                @extend .fw-medium;
+                color: $text-dark;
+            }
+
+            .user-designation{
+                @extend .text-secondary;
+                font-size: $font-size-primary;
+            }
+
+            p{
+                margin: 0;
+            }
+        }
+    }
+
+    .date-section {
+        @extend .d-flex;
+        @extend .flex-column;
+        @extend .align-items-start;
+
+        p{
+            margin: 0;
+        }
+        
+        .duration {
+            @extend .fw-medium;
+            color: $text-dark;
+        }
+
+        .date{
+            @extend .text-secondary;
+            font-size: $font-size-sm;
+        }
+    }
+}

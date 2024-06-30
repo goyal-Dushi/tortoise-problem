@@ -1,0 +1,18 @@
+.amt-summary{
+    @extend .d-flex;
+    @extend .align-items-center;
+    @extend .gap-5;
+
+    &__amt{
+        @extend .fw-bold;
+        @extend .my-0;
+        color: $text-dark;
+        font-size: $font-size-primary;
+    }
+
+    &__tenure{
+        @extend .text-secondary;
+        @extend .my-0;
+        font-size: $font-size-sm;
+    }
+}

@@ -1,0 +1,13 @@
+.reqInfo-summary{
+    &__dur{
+        @extend .fw-bold;
+        margin: 0;
+        color: $text-dark;
+    }
+
+    &__date{
+        @extend .text-secondary;
+        margin: 0;
+        font-size: $font-size-sm;
+    }
+}

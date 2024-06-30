@@ -1,0 +1,19 @@
+.info-item {
+    @extend .d-flex;
+    @extend .my-2;
+    @extend .align-items-center;
+    @extend .justify-content-between;
+    font-size: $font-size-primary;
+
+    &--separator{
+        @extend .pt-1;
+        border: 0;
+        border-top: 2px solid $border-light;
+        border-style: dashed;
+    }
+
+    &__value{
+        @extend .fw-medium;
+        color: $text-dark;
+    }
+}

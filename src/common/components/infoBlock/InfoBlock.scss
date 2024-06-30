@@ -1,0 +1,24 @@
+.info-block{
+    @extend .rounded;
+    @extend .p-2;
+    @extend .my-3;
+    display: grid;
+    grid-template-columns: 2% 98%;
+    grid-column-gap: 10px;
+    background-color: $bg-light;
+    -ms-grid-column-align: center;
+
+    &__icon{
+        height: 24px;
+        width: 24px;
+    }
+
+    &__text{
+        color: $text-dark;
+        font-size: $font-size-primary;
+
+        p{
+            margin: 0;
+        }
+    }
+}
